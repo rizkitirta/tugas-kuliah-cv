@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Curriculum Vitae</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#experience">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#gallery">Gallery</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="text-center py-4 bg-primary text-white">
+        <h1>Curriculum Vitae</h1>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container my-5">
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <!-- Profile Image -->
+                <img src="images/profile.jpg" alt="Profile Picture" class="img-fluid rounded-circle mb-3">
+                <h2>Rizki Tirta Buwono</h2>
+                <p class="lead">Backend Developer</p>
+            </div>
+            <div class="col-md-8">
+                <!-- About Section -->
+                <section id="about">
+                    <h2>About Me</h2>
+                    <p>
+                        Saya adalah seorang <strong>Backend Developer</strong> dengan pengalaman 3 tahun dalam industri teknologi informasi. Selama karier saya, saya telah membangun berbagai aplikasi backend dengan mengikuti best practice, memastikan setiap solusi yang saya kembangkan efisien, aman, dan scalable. Saya selalu berkomitmen untuk memberikan upaya terbaik dalam setiap proyek yang saya kerjakan, dengan fokus pada kualitas dan kepuasan user.
+                    </p>
+                    <p>
+                        Selain profesionalisme dalam pekerjaan, saya juga memiliki hobi bermain futsal. Kegiatan ini membantu saya menjaga keseimbangan antara kehidupan kerja dan pribadi, serta meningkatkan kemampuan kerja sama tim yang juga sangat penting dalam dunia pengembangan perangkat lunak.
+                    </p>
+                </section>
+
+                <!-- Contact Section -->
+                <section id="contact">
+                    <h2>Contact Information</h2>
+                    <ul>
+                        <li>Email: tirtadev01@gmail.com@example.com</li>
+                        <li>Phone: +1234567890</li>
+                        <li>Website: <a href="https://rizkitirta.my.id/" target="_blank">https://rizkitirta.my.id/</a></li>
+                        <li>LinkedIn: <a href="https://linkedin.com/in/rizkitirtabuwono" target="_blank">linkedin.com/in/rizkitirtabuwono</a></li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML & CSS</li>
+                <li>PHP</li>
+                <li>JavaScript</li>
+                <li>Bootstrap</li>
+                <li>Laravel</li>
+                <li>MySQL</li>
+                <li>PostgreSQL</li>
+                <li>Git</li>
+                <li>Docker</li>
+                <li>Kubernetes</li>
+                <li>CI/CD</li>
+                <li>Linux</li>
+                <li>RabbitMQ</li>
+                <li>Redis</li>
+            </ul>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience">
+            <h2>Experience</h2>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Position</th>
+                        <th>Company</th>
+                        <th>Years</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Backend Developer</td>
+                        <td>PT. Janish Lintas Data</td>
+                        <td>2021 - 2022</td>
+                    </tr>
+                    <tr>
+                        <td>Backend Developer</td>
+                        <td>PT. Airpaz Indonesia</td>
+                        <td>2022 - 2024</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Project Name</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Restful API Perikanan Kepulauan Riau</td>   
+                        <td>Membangun Restful API untuk aplikasi perikanan kepulauan riau, restful api ini dibuat dengan menggunakan nodejs and mongoDB</td>
+                    </tr>
+                    <tr>
+                        <td>PPDB Dinas</td>
+                        <td>Membangun PPDB Dinas untuk sekolah-sekolah yang masuk kedalam anggota dinas setempat,website ini dibuat dengan menggunakan laravel & postgresql</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="images/restapi.jpeg" alt="Profile" class="img-fluid mb-3">
+                </div>
+                <div class="col-md-4">
+                    <img src="images/docker.jpg" alt="Project 1" class="img-fluid mb-3">
+                </div>
+                <div the="col-md-4">
+                    <img src="images/nodejs.png" alt="Project 2" class="img-fluid mb-3">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="text-center py-4 bg-primary text-white">
+        <p>&copy; 2024 Rizki Tirta Buwono. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS and Dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
